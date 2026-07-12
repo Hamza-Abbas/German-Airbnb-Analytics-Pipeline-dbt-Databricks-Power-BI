@@ -1,6 +1,6 @@
 # 🏠 German Airbnb Pipeline — dbt + Databricks
 
-An end-to-end data engineering portfolio project analyzing **9.2 million rows**
+An end-to-end data engineering portfolio project analyzing **9.2 million records**
 of Airbnb listing, calendar, and review data across **Berlin and Munich** using
 Medallion Architecture on Databricks with dbt.
 
