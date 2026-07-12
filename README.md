@@ -14,9 +14,9 @@ Data flows through three medallion layers:
 
 | Layer | Purpose | Tables |
 |---|---|---|
-| **Bronze** | Raw data preserved as-is from Unity Catalog sources | 6 |
+| **Bronze** | Raw data preserved in its original state from Unity Catalog sources | 6 |
 | **Silver** | Cleaned, typed, normalized and unioned across cities | 4 |
-| **Gold** | Business-ready aggregations powering 5 key insights | 5 |
+| **Gold** | Analytics ready aggregations powering 5 key insights | 5 |
 
 ---
 
