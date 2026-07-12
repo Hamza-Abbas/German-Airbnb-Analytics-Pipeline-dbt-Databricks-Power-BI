@@ -120,21 +120,21 @@ uv run dbt docs serve
 
 ## 🔧 Key Engineering Decisions
 
-**Why Medallion Architecture?**
+**Why opted for Medallion Architecture?**
 Separating Bronze/Silver/Gold means source data is never mutated. If a Silver
 transformation breaks, raw data is preserved in Bronze and the pipeline can be
 reprocessed without re-ingestion.
 
-**Why `multiLine` CSV parsing?**
+**Why used `multiLine` CSV parsing?**
 Airbnb listing descriptions contain embedded newlines inside quoted fields.
 Standard CSV parsing shifted columns incorrectly — `multiLine` + `escape` options
 in Spark resolved this.
 
-**Why `TRY_CAST` over `CAST` for price?**
+**Why used `TRY_CAST` over `CAST` for price?**
 The raw price column contained mixed types (dollar strings, dates, booleans).
 `TRY_CAST` returns NULL on unparseable values rather than failing the entire model.
 
-**Why filter neighbourhoods to 20+ listings?**
+**Why did I filter neighbourhoods to 20+ listings?**
 Neighbourhoods with fewer than 20 listings produced statistically unreliable
 averages — single luxury outliers created 10x gaps between mean and median.
 
@@ -143,8 +143,7 @@ averages — single luxury outliers created 10x gaps between mean and median.
 ## 📦 Data Source
 
 [Inside Airbnb](https://insideairbnb.com/get-the-data/) — publicly available
-Airbnb listing data scraped from Berlin and Munich (2025 & 2026). Used strictly for
-educational and portfolio purposes.
+Airbnb listing data scraped from Berlin and Munich (2025 & 2026).
 
 ---
 
