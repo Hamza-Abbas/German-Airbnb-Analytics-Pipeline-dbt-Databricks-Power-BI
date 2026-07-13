@@ -10,7 +10,7 @@ Medallion Architecture on Databricks with dbt.
 
 ![Lineage Graph](docs/Lineage_graph.png)
 
-Data flows through three medallion layers:
+Data flows through three layers of the Medallion Architecture:
 
 | Layer | Purpose | Tables |
 |---|---|---|
