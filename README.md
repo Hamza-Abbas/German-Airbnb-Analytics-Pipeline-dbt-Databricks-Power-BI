@@ -121,7 +121,7 @@ uv run dbt docs serve
 ## 🔧 Key Engineering Decisions
 
 **Why opted for Medallion Architecture?**
-Separating Bronze/Silver/Gold means source data is never mutated. If a Silver
+Separating Bronze/Silver/Gold means that source data is never mutated. If a Silver
 transformation breaks, raw data is preserved in Bronze and the pipeline can be
 reprocessed without re-ingestion.
 
