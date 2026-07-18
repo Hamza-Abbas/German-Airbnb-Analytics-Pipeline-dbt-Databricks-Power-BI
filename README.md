@@ -25,7 +25,7 @@ Data flows through three layers of the Medallion Architecture:
 | Tool | Purpose |
 |---|---|
 | Databricks (Serverless SQL Warehouse) | Cloud data platform |
-| Delta Lake + Unity Catalog | Table format and data governance |
+| Unity Catalog | Table format and data governance |
 | dbt-databricks 1.11.7 | Transformation and testing layer |
 | Python + uv | Dependency and environment management |
 | GitHub | Version control |
