@@ -62,7 +62,7 @@ Data flows through three layers of the Medallion Architecture:
 ### 5. Booking activity peaks in summer months
 - Berlin review activity peaks in **July 2025 (14,585 reviews)**
 - Sharp post-September drop consistent with occupancy trends
-- Reviews used as booking proxy — actual booking data not publicly available
+- Reviews used as booking proxy — actual booking data is not publicly available
 
 ---
 
