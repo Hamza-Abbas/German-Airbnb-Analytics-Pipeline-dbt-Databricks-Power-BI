@@ -140,7 +140,6 @@ averages — single luxury outliers created 10x gaps between mean and median.
 
 ---
 
-
 ## 📦 Data Source
 
 [Inside Airbnb](https://insideairbnb.com/get-the-data/) — publicly available
