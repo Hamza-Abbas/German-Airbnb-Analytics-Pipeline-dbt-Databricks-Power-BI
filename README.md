@@ -6,7 +6,6 @@ Medallion Architecture on Databricks with dbt.
 
 ---
 
-
 ## 🏗️ Architecture
 
 ![Lineage Graph](docs/Lineage_graph.png)
