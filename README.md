@@ -8,6 +8,7 @@ Medallion Architecture on Databricks with dbt.
 
 ## 🏗️ Architecture
 
+
 ![Lineage Graph](docs/Lineage_graph.png)
 
 Data flows through three layers of the Medallion Architecture:
